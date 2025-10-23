@@ -9,9 +9,10 @@
     <h1 id="output">Loading...</h1>
     
     <script>
-        // JavaScript code to display "Hello World"
-        document.getElementById('output').textContent = "Hello World";
-        console.log("Hello World. This is our first github trial");
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById('output').textContent = "Hello World";
+            console.log("Hello World. This is our first github trial");
+        });
     </script>
 </body>
 </html>
